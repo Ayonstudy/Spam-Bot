@@ -54,9 +54,6 @@ entryC = Entry(menuC)
 entryC.pack(side=RIGHT, expand=True)
 entryC.config(width=45)
 
-
-
-
 def spam_info():
     time.sleep(0.1)
     f = open("spam-record.txt", "r")
@@ -66,7 +63,6 @@ def spam_info():
             pyautogui.press("enter")
         pyautogui.press("enter")
         
-
 def spam_control():
     a = 0
     time.sleep(5)
