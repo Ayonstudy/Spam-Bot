@@ -7,7 +7,7 @@ window.geometry("500x200")
 window.minsize(500,200)
 window.maxsize(500,200)
 window.title("Smiling Spam Bot")
-icon = PhotoImage(file="giorno_arrow_scene.png")
+icon = PhotoImage(file="Smiling-Spam-Bot-Icon.png")
 window.iconphoto(True,icon)
 
 def spam_update():
